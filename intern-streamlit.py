@@ -10,6 +10,7 @@ def search_github_repositories(keyword, username):
         return result
     else:
         print("検索に失敗")
+        
 col1, col2 = st.columns(2)
 with col1:
     keyword = st.text_input("keyword")
